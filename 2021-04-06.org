@@ -40,3 +40,4 @@ git push
 - Problema com chmod u+x
 
 ** Questão sobre o projeto 0x04 Git. Tarefa Coding fury road (Felipe)
+Change
