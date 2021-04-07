@@ -38,6 +38,7 @@ git push
 ** Questão 0x00 Shell Basics (Bruno Mendes)
 
 - Problema com chmod u+x
+- Windows com git bash
 
 ** Questão sobre o projeto 0x04 Git. Tarefa Coding fury road (Felipe)
 Change
