@@ -1,0 +1,18 @@
+# Title: HeX - Weekly Live Coding Session - 2021, April, 13th.
+
+* Q&A
+** C Pointers (Felipe Pugian)
+- Ponteiros são referências para endereços na memória.
+- Eles são usados para passar argumentos por referência:
+  + Evitar de duplicar o valor de variáveis quando passando eles como parametros para uma função
+  + Delegar responsabilidade para funções
+- Eles são usados para criar estruturas de dados
+  + arrays
+  + strings
+  + linked lists (não vamos cobrir esse tópico)
+  + trees (não vamos cobrir esse tópico)
+- Eles são usados para manipular estruturas de dados
+  + arrays
+  + strings
+  + linked lists (não vamos cobrir esse tópico)
+  + trees (não vamos cobrir esse tópico)
