@@ -16,3 +16,10 @@
   + strings
   + linked lists (não vamos cobrir esse tópico)
   + trees (não vamos cobrir esse tópico)
+** Extra notes
+- About Operating Systems
+  https://www.youtube.com/watch?v=26QPDBe-NB8&list=WL&index=70&t=234s
+- About how microprocessor's work
+  https://www.youtube.com/watch?v=OvLRBSQ0Ja0
+- About how to draw a pixel on screen
+  https://www.youtube.com/watch?v=Pub0TdAgT2s
