@@ -1,0 +1,44 @@
+# Title: HeX - Weekly Live Coding Session - 2021, April, 6th.
+
+* Q&A
+** Dicas do Github (Lara Souza)
+- Como garantir que o script seja transferido para o GitHub(Laryssa Ribeiro)
+- Falar algo sobre algumas dicas do github (Tayná Sousa)
+- Utilização do git (Bruno Mendes)
+
+*** Antes de você começar
+
+#+begin_src bash
+git config --list | sort | less
+git config --list | grep user.email || echo "Falta configurar seu email (git config --add user.email <EMAIL>)"
+git config --list | grep user.name || echo "Falta configurar seu nome (git config --add user.name <EMAIL>)"
+ssh -T git@github.com || echo "Problema com a configuração da chave SSH no github.com"
+#+end_src
+
+*** Como clonar um repositório?
+
+#+begin_src bash
+git clone <URL do Repositório> [<Caminho de destino opcional>]
+#+end_src
+
+*** O que fazer depois de cloná-lo?
+
+#+begin_src bash
+cd pasta_do_repositorio
+# Fazer mudanças no projeto
+git add . # ou git add arquivos_que_você_alterou
+git commit # ou git commit -am"Texto do commit"
+git push
+# Fazer mais mudanças no projeto
+# Repetir os comandos acima
+#+end_src
+
+
+
+** Questão 0x00 Shell Basics (Bruno Mendes)
+
+- Problema com chmod u+x
+- Windows com git bash
+
+** Questão sobre o projeto 0x04 Git. Tarefa Coding fury road (Felipe)
+Change
