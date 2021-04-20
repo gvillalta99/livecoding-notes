@@ -1,0 +1,37 @@
+* 2021-04-20 - Live Coding Session #4
+
+** Quando usar printf/scanf e quando usar putchar e as variantes? (Lara)
+
+*** printf
+https://code.woboq.org/userspace/glibc/stdio-common/printf.c.html
+
+*Converte*, *formata* e *imprime* os valores
+
+*** puts && putchar
+https://code.woboq.org/userspace/glibc/libio/ioputs.c.html#48
+
+Só *imprimem* os valores
+
+
+*** Resumo
+
+Por baixo dos panos da pra você implementar da seguinte forma:
+https://github.com/torvalds/linux/blob/master/arch/x86/boot/printf.c#304
+https://github.com/torvalds/linux/blob/master/arch/x86/boot/tty.c#L61
+
+
+*** scanf
+https://code.woboq.org/userspace/glibc/stdio-common/scanf.c.html#43
+https://code.woboq.org/userspace/glibc/stdio-common/vfscanf-internal.c.html#274
+
+*Lê*, *formata* e *converte* os valores
+
+*** gets, getc
+
+Lê os valores.
+
+*** stdout, stdin, stderr
+https://linux.die.net/man/3/stdout
+
+
+** Quais as funções dos testes para a minha página HTML, por exemplo W3C? (Laryssa)
